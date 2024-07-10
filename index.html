@@ -1,3 +1,5 @@
+html
+Copy code
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +8,20 @@
     <title>Syed Askari - Professional Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f0f0;
             color: #333;
         }
         header {
-            background: #333;
+            background: #0a74da;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+        }
+        header h1, header h2 {
+            margin: 0.5rem 0;
         }
         .container {
             width: 80%;
@@ -26,6 +31,7 @@
             padding: 2rem;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 2rem;
+            border-radius: 10px;
         }
         .profile {
             text-align: center;
@@ -34,8 +40,9 @@
         .profile img {
             border-radius: 50%;
             width: 150px;
+            border: 5px solid #0a74da;
         }
-        .profile h1 {
+        .profile h1, .profile h2 {
             margin: 0.5rem 0;
         }
         .contact-info {
@@ -49,9 +56,10 @@
             margin-bottom: 2rem;
         }
         .section h2 {
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #0a74da;
             padding-bottom: 0.5rem;
             margin-bottom: 1rem;
+            color: #0a74da;
         }
         ul {
             list-style-type: none;
@@ -63,7 +71,7 @@
         footer {
             text-align: center;
             padding: 1rem 0;
-            background: #333;
+            background: #0a74da;
             color: #fff;
             margin-top: 2rem;
         }
@@ -90,6 +98,7 @@
         .hobby img {
             width: 100px;
             height: 100px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -191,11 +200,85 @@
         <div class="section">
             <h2>Certifications</h2>
             <ul>
-                <li>Project Management Professional by PMI</li>
-                <li>Technical Certifications – IWCF Level 3 & 4, SPP Level 4</li>
-                <li>Multiple Internal Company Professional Development Courses in Finance & Leadership</li>
+                <li>Advanced Technical Leadership Program (2017)</li>
+                <li>Six Sigma Yellow Belt (2019)</li>
+                <li>Operational Excellence Program (2020)</li>
+                <li>Certified Project Management Professional (PMP) (2021)</li>
+            </ul>
+        </div>
+        <div class="section">
+        <section>
+            <h2 class="section-title">Recommendations</h2>
+            <div class="recommendation">
+                <h4>Ayaz Malik</h4>
+                <p><strong>Human Resources Professional</strong></p>
+                <p>We worked together for almost 2 years at WDI Pakistan. Askari was very professional in business dealings and supportive in learning new domains. His thorough understanding of EXCEL advanced reporting was very valuable.</p>
+            </div>
+            <div class="recommendation">
+                <h4>Samaila Mamman</h4>
+                <p><strong>Senior Operator Well Services at Consultant</strong></p>
+                <p>Syed is smart, well-articulated, and resourceful.</p>
+            </div>
+            <div class="recommendation">
+                <h4>Ali El Ezzy, CEng MIET, PMP®</h4>
+                <p><strong>Engineering & Project Manager</strong></p>
+                <p>I worked with Syed on a Weatherford project. His attention to detail and support were remarkable. Syed's problem-solving skills and management capabilities are excellent.</p>
+            </div>
+            <div class="recommendation">
+                <h4>Gheorghe Gabriel Claudiu</h4>
+                <p><strong>Maintenance Superintendent at Weatherford</strong></p>
+                <p>Syed joined Oman Operations as a Lead project engineer. Despite challenges, he managed to get the rig accepted within the agreed timeline. His top skills are technically adept, teamwork, and communication.</p>
+            </div>
+            <div class="recommendation">
+                <h4>Taha Latif</h4>
+                <p><strong>Energy sector</strong></p>
+                <p>Askari worked as Performance Engineer and then as Senior Operations Engineer with me. His technical soundness and adaptability to fast changes in the oil field were commendable.</p>
+            </div>
+            <div class="recommendation">
+                <h4>WAQAS MEHMOOD DANISH</h4>
+                <p><strong>Risk Management Professional</strong></p>
+                <p>Askari is an innovative mind with brilliant ideas. His critical analysis of situations makes him a good crisis manager. I wish him all the best for his future endeavors.</p>
+            </div>
+        </section>
+
+        <div class="section">
+            <h2>Community Service</h2>
+            <ul>
+                <li>Mentor at various community-based programs</li>
+                <li>Volunteer for educational and environmental initiatives</li>
+                <li>Active member of professional and alumni associations</li>
             </ul>
         </div>
 
-        <div class="section recommendations">
-            <h2>Recommendations</h2
+        <div class="section">
+            <h2>Hobbies and Interests</h2>
+            <div class="hobbies">
+                <div class="hobby">
+                    <img src="https://via.placeholder.com/100" alt="Traveling">
+                    <h3>Traveling</h3>
+                    <p>Exploring new cultures and destinations</p>
+                </div>
+                <div class="hobby">
+                    <img src="https://via.placeholder.com/100" alt="Photography">
+                    <h3>Photography</h3>
+                    <p>Capturing moments and nature</p>
+                </div>
+                <div class="hobby">
+                    <img src="https://via.placeholder.com/100" alt="Sports">
+                    <h3>Sports</h3>
+                    <p>Playing and watching various sports</p>
+                </div>
+                <div class="hobby">
+                    <img src="https://via.placeholder.com/100" alt="Reading">
+                    <h3>Reading</h3>
+                    <p>Enjoying a wide range of literature</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Syed Askari - 2024</p>
+    </footer>
+</body>
+</html>
